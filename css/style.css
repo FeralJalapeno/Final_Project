@@ -10,28 +10,20 @@ body{
     font:15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #DADED4;
+    background-color: #c3073f;
 
     /*
     all my colours for the thene:
-    Olive: #A3BCB6
-
-Green Leaf: #39603D
-
-Brown Grey: #3C403D
-
-Tanly: #DADED4
-
-White: #FFFFFF
-Natural Yellow: #F1B24A
-Light Green: #9DC88D
-    
+   
+    #950740 
+    #4e4e50
+    #1a1a1d
     */
 }
 /*global all round container stuffs*/
 .dark{
     padding: 15px;
-    background:#39603D;
+    background:#1a1a1d;
     color:#FFFFFF;
     margin-top: 10px;
     margin-bottom:10px;
@@ -49,7 +41,7 @@ ul{
 }
 .button_1{
     height: 38px;
-    background:#F1B24A;
+    background:#c3073f;
     border:0;
     padding-left: 20px;
     padding-right: 20px;
@@ -58,14 +50,14 @@ ul{
 }
 /*Header*/
 header{
-   background:#39603D ; 
-   color:#FFFFFF;
+   background:#1a1a1d  ; 
+   color:#950740;
    padding-top: 30px;
    min-height:70px;
-   border-bottom: #A3BCB6 3px solid;
+   border-bottom: #c3073f 3px solid;
 }
 header a{
-    color:#FFFFFF;
+    color:#c3073f;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -89,7 +81,7 @@ header nav{
     margin-top: 10px;
 }
 header .highlight, header .current a{
-    color:#9DC88D;
+    color:#4e4e50;
     font-weight: bold;
     
 }
@@ -105,7 +97,7 @@ header a:hover{
 
 #showcase{
     min-height:400px;
-    background: url('https://i.pinimg.com/236x/e1/48/4b/e1484b8619264efaa7b7cadb68a8582d.jpg') no-repeat 0 ;
+    
     background-size:1600px 500px;
     text-align: center;
     color: #FFFFFF;
@@ -122,7 +114,7 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color: #FFFFFF;
-    background:#39603D;
+    background:#1a1a1d;
 }
 #newsletter h1{
     float:left;
@@ -146,6 +138,7 @@ header a:hover{
 }
 .box h3{
     font-family: 'Homemade Apple', cursive;
+    color: #FFFFFF;
 }
 
 #boxes .box{
@@ -153,6 +146,7 @@ header a:hover{
     width: 30%;
     padding:10px;
     text-align: center;
+    color:#FFFFFF;
 }
 #boxes .box img{
     width:90px;
