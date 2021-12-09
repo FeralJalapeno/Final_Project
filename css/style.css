@@ -71,6 +71,7 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+    
 }
 
 header li{
@@ -110,7 +111,8 @@ header a:hover{
     
     background-size:1600px 500px;
     text-align: center;
-    color: #7F7C7C;
+    color: #1a1a1d;
+    text-shadow: 2px 2px #DB2F41;
 
 }
 #showcase h1{
@@ -144,12 +146,15 @@ header a:hover{
 
 #boxes{
     margin-top: 20px;
-    background-color: #F2F2F2;
+    background-color: rgba(0,0,0,.5);
+    
+    
     
 }
 .box h3{
     font-family: 'Homemade Apple', cursive;
     color: #DB2F41;
+    
 }
 
 #boxes .box{
@@ -157,10 +162,12 @@ header a:hover{
     width: 30%;
     padding:10px;
     text-align: center;
-    color:#7F7C7C;
+    color:#F2F2F2;
+    
 }
 #boxes .box img{
     width:90px;
+    
 
 }
 /*SIDE BAR*/
