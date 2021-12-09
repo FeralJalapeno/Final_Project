@@ -10,23 +10,33 @@ body{
     font:15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #c3073f;
+    background-color: #F2F2F2;
+    background-image: url("../images/posterbg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 
     /*
     all my colours for the thene:
-   
-    #950740 
-    #4e4e50
-    #1a1a1d
+   #223C3C
+
+   #F2F2F2
+   #DB2F41
+   #7F7C7C
+
+   #75E6DA
+    
+
     */
 }
 /*global all round container stuffs*/
 .dark{
     padding: 15px;
     background:#1a1a1d;
-    color:#FFFFFF;
+    color:#F2F2F2;
     margin-top: 10px;
     margin-bottom:10px;
+    background-image: url("../images/posterbg.png");
 
 }
 .container{
@@ -45,19 +55,19 @@ ul{
     border:0;
     padding-left: 20px;
     padding-right: 20px;
-    color: #FFFFFF;
+    color: #F2F2F2;
 
 }
 /*Header*/
 header{
    background:#1a1a1d  ; 
-   color:#950740;
+   color:#F2F2F2;
    padding-top: 30px;
    min-height:70px;
-   border-bottom: #c3073f 3px solid;
+   border-bottom: #DB2F41 3px solid;
 }
 header a{
-    color:#c3073f;
+    color:#7F7C7C;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -81,7 +91,7 @@ header nav{
     margin-top: 10px;
 }
 header .highlight, header .current a{
-    color:#4e4e50;
+    color:#DB2F41;
     font-weight: bold;
     
 }
@@ -89,7 +99,7 @@ header .highlight{
     font-family: 'Homemade Apple', cursive;
 }
 header a:hover{
-    color:#F1B24A;
+    color:#75E6DA;
     font-weight:bold;
 }
 
@@ -100,7 +110,7 @@ header a:hover{
     
     background-size:1600px 500px;
     text-align: center;
-    color: #FFFFFF;
+    color: #7F7C7C;
 
 }
 #showcase h1{
@@ -113,7 +123,7 @@ header a:hover{
 }
 #newsletter{
     padding: 15px;
-    color: #FFFFFF;
+    color: #F2F2F2;
     background:#1a1a1d;
 }
 #newsletter h1{
@@ -134,11 +144,12 @@ header a:hover{
 
 #boxes{
     margin-top: 20px;
+    background-color: #F2F2F2;
     
 }
 .box h3{
     font-family: 'Homemade Apple', cursive;
-    color: #FFFFFF;
+    color: #DB2F41;
 }
 
 #boxes .box{
@@ -146,7 +157,7 @@ header a:hover{
     width: 30%;
     padding:10px;
     text-align: center;
-    color:#FFFFFF;
+    color:#7F7C7C;
 }
 #boxes .box img{
     width:90px;
@@ -175,7 +186,7 @@ article#main-col h1{
 footer{
     padding: 20px;
     margin-top:20px ;
-    color: #FFFFFF;
+    color: #DB2F41;
     
     text-align:center;
 }
