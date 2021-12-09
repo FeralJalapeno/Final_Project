@@ -9,7 +9,7 @@
 }
 
 .card{
-    background: #6f2232;
+    background: #7F7C7C;
     width: 270px;
     margin: 10px;
     border-radius: 15px;
@@ -40,7 +40,7 @@
     font-family: 'Homemade Apple', cursive;
 }
 .card a{
-    background-color: #F1B24A;
+    background-color: #75E6DA;
     color:white;
     padding: 15px 20px;
     display: block;
@@ -49,7 +49,7 @@
     text-decoration: none;
 }
 .card:hover{
-    background-color: #9DC88D;
+    background-color: #DB2F41;
     color: white;
     cursor: pointer;
     transform:scale(1.03);
