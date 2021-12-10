@@ -29,6 +29,12 @@ body{
 
     */
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 /*global all round container stuffs*/
 .dark{
     padding: 15px;
@@ -37,6 +43,7 @@ body{
     margin-top: 10px;
     margin-bottom:10px;
     background-image: url("../images/posterbg.png");
+    
 
 }
 .container{
@@ -183,10 +190,12 @@ aside#sidebar h1{
 article#main-col{
     float:left;
     width: 65%;
+    background-color: rgba(255,255,255,.5);
     
     
 
 }
+
 article#main-col h1{
     font-family: 'Homemade Apple', cursive;
 }
